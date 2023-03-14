@@ -1,0 +1,18 @@
+{
+    "companyName": "Portal",
+    "currency": "$",
+    "totalProfileImages": 8,
+    "apiHostForFile": "https://api.justevaluationco.com/mg",
+    "googleRecaptchaToken": "6Lf0-iUhAAAAACjJ1iB4U8MpsGg9xwqxyulIQQmW",
+    "version": "V 0.3.121",
+    "depositRejectReasons": {
+        "[DEP-R63] Transaction Timeout - Payment Status Not Available": "[DEP-R63] Transaction Timeout - Payment Status Not Available",
+        "[DEP-R39] Transaction Declined - Invalid Transaction Information": "[DEP-R39] Transaction Declined - Invalid Transaction Information",
+        "[DEP-R87] Transaction Voided - Duplicate Transaction": "[DEP-R87] Transaction Voided - Duplicate Transaction"
+    },
+    "withdrawRejectReasons": {
+        "[WD-R18] Transaction Timeout - Payment Status Not Available": "[WD-R18] Transaction Timeout - Payment Status Not Available",
+        "[WD-R55] Transaction Declined - Invalid Transaction Information": "[WD-R55] Transaction Declined - Invalid Transaction Information",
+        "[WD-R71] Transaction Suspended - Others": "[WD-R71] Transaction Suspended - Others"
+    }
+}

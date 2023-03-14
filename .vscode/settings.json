@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredDarkColorTheme": "Atom One Dark",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": false
+}

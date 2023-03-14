@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "edge",
+        "request": "launch",
+        "name": "npm: dev",
+        "url": "http://localhost:9999",
+        "webRoot": "${workspaceFolder}",
+        "breakOnLoad": true,
+        "pathMapping": {
+          "/_karma_webpack_": "${workspaceFolder}"
+        },
+        "sourceMapPathOverrides": {
+          "webpack:/*": "${webRoot}/*",
+          "/./*": "${webRoot}/*",
+          "/src/*": "${webRoot}/*",
+          "/*": "*",
+          "/./~/*": "${webRoot}/node_modules/*"
+        },
+        "preLaunchTask": "npm: dev"
+      }
+    ]
+  }
